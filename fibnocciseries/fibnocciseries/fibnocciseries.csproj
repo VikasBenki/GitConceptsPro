@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B1EBA6F7-0D08-4420-96C0-DE34E47A7AFA}</ProjectGuid>
+    <ProjectGuid>{11D48A1C-FEA9-4329-A004-2B6841745AFF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GitConcepts</RootNamespace>
-    <AssemblyName>GitConcepts</AssemblyName>
+    <RootNamespace>fibnocciseries</RootNamespace>
+    <AssemblyName>fibnocciseries</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FibonocciSeries.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SwapingNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

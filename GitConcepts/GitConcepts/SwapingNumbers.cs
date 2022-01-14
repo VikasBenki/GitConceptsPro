@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitConcepts
 {
-    public class Program
+    public class SwapingNumbers
     {
-       public static void Main(string[] args)
-        {
-        }
+        public void
     }
 }
