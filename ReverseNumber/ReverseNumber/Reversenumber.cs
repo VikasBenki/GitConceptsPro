@@ -10,6 +10,8 @@ namespace ReverseNumber
     {
         public static void GetReverse(int n)
         {
+            Console.WriteLine("enter a Num");
+            int num = Convert.ToInt32(Console.ReadLine());
             int reverse = 0, rem;
             while (n != 0)
             {

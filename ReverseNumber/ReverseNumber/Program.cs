@@ -10,9 +10,9 @@ namespace ReverseNumber
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter a Num");
-            int num = Convert.ToInt32(Console.ReadLine());
-            Reversenumber.GetReverse(num);
+            Console.WriteLine("welcome to new batch");
+            SwapingNumbers.SwapingNumber();
+            //Reversenumber.GetReverse(num);
         }
     }
 }
